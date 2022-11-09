@@ -45,13 +45,3 @@ class OrderedVector:
             for i in range(key_index, self.lastPosition+1):
                 self.value[i] = self.value[i+1]
             self.lastPosition -= 1
-
-
-vector = OrderedVector(5)
-vector.insert(5)
-vector.insert(2)
-vector.insert(1)
-vector.insert(7)
-
-
-vector.search(10)
